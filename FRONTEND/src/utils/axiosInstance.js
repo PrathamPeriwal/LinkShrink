@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = import.meta.env.VITE_API_URL;
+const baseURL = "https://linkshrink-nsmw.onrender.com";
 
 const axiosInstance = axios.create({
   baseURL: baseURL,
