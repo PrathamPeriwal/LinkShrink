@@ -19,7 +19,7 @@ const port = process.env.PORT || 3000;
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // your React app
+    origin: "https://link-shrink-vjg2.onrender.com", // your React app
     credentials: true, // 👈 this allows cookies to be sent
   })
 );
